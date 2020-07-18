@@ -1,0 +1,19 @@
+<table className='table table-striped table-curved table-responsive mt-4'>
+        <thead>
+          <tr>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td className='text-primary  text-left'></td>
+            {name}{' '}
+            <td>
+              <i className='fa fa-pencil mr-3 text-warning'> </i>
+            </td>
+            <td>
+              <i className='fa fa-trash mr-2 text-danger' />
+            </td>
+          </tr>
+        </tbody>
+      </table>
